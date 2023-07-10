@@ -56,6 +56,7 @@ button {
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -79,6 +80,7 @@ button {
 /*maim*/
 .featured {
        justify-content: space-between;
+       margin-top: 130px;
 }
 
 .container{
@@ -93,6 +95,7 @@ button {
     font-size: 40px;
     font-weight: 800;
     line-height: normal;
+    padding-top: 120px;
 }
 
 .description {
@@ -101,6 +104,7 @@ button {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding-top: 0px;
 }
 
 .tulip {
@@ -122,12 +126,39 @@ button {
     background-position: bottom;
     padding: 117px 75px 0px 76px;
 }
-
+.hott{
+    margin-top: 140px;
+    background-color: #E554730D;
+}
 .hot{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.insta{
+    margin-top: 130px;
+}
 .get-the{
     background-image: url(images/Rectangle\ 9.png);
+}
+.latest{
+    display: flex;
+}
+.get{
+    margin-top: ;
+}
+.hot-deals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-tittle{
+    padding-top: 122px;
+}
+.contact input, textarea{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+
 }
