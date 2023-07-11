@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: azure;
+    background-color: rgb(236, 208, 229);
     padding: 0px 240px 0px 240px;
 }
 
@@ -76,18 +76,20 @@ button {
     height: 800px;
     padding: 0px 240px 0px 100px;
 }
+
 /*maim*/
 .featured {
-       justify-content: space-between;
-       margin-top: 130px;
+    justify-content: space-between;
+    margin-top: 130px;
 }
 
-.container{
+.container {
     display: flex;
     column-gap: 50px;
-    margin: 0px  auto;
+    margin: 0px auto;
     justify-content: center;
 }
+
 .tittle {
     color: #272727;
     text-align: center;
@@ -113,69 +115,81 @@ button {
     padding: 170px 78px 0px 78px;
     justify-content: center;
 }
-.sunflower{
+
+.sunflower {
     background-image: url(images/Rectangle\ 3\ \(3\).png);
     background-size: cover;
     background-position: bottom;
     padding: 110px 47px;
 }
-.tulip-yellow{
+
+.tulip-yellow {
     background-image: url(images/Rectangle\ 3\ \(4\).png);
     background-size: cover;
     background-position: bottom;
     padding: 117px 75px 0px 76px;
 }
-.hott{
+
+.hott {
     margin-top: 140px;
     background-color: #E554730D;
 }
-.hot{
+
+.hot {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.insta{
+
+.insta {
     margin-top: 40px;
 }
-.get-the{
-    background-image: url(images/Rectangle\ 9.png);
-    background-size: auto;
-    justify-content: stretch;
-    margin: 20px auto;
-margin-left: auto;
-margin-right: auto;
 
+.background-image-container {
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    max-width: 1920px;
+    background-position: center;
 }
-.latest{
+
+.latest {
     display: flex;
 }
-.get{
+
+.get {
     margin-top: 100px;
     justify-content: center;
 }
-.hot-deals{
+
+.hot-deals {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.get-tittle{
+
+.get-tittle {
     padding-top: 122px;
 }
-.contact input, textarea{
+
+.contact input,
+textarea {
     width: 700px;
-height: 64px;
-border-radius: 8px;
-background: #FFF;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
 }
-.footer-description{
+
+.footer-description {
     color: #FFFFFFE5;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin: 24px auto ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px auto;
 }
-.ending{
+
+.ending {
     justify-content: center;
     text-align: center;
     background-color: #111010;
@@ -183,9 +197,10 @@ margin: 24px auto ;
     padding-bottom: 100px;
     margin-top: 100px;
 }
-.small{
+
+.small {
     color: #FFFFFF66;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
