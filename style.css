@@ -42,7 +42,6 @@ h1 {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    margin-bottom: 0px;
 }
 
 p {
@@ -136,16 +135,23 @@ button {
     align-items: center;
 }
 .insta{
-    margin-top: 130px;
+    margin-top: 40px;
 }
 .get-the{
     background-image: url(images/Rectangle\ 9.png);
+    background-size: auto;
+    justify-content: stretch;
+    margin: 20px auto;
+margin-left: auto;
+margin-right: auto;
+
 }
 .latest{
     display: flex;
 }
 .get{
-    margin-top: ;
+    margin-top: 100px;
+    justify-content: center;
 }
 .hot-deals{
     display: flex;
@@ -160,5 +166,26 @@ button {
 height: 64px;
 border-radius: 8px;
 background: #FFF;
-
+}
+.footer-description{
+    color: #FFFFFFE5;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 24px auto ;
+}
+.ending{
+    justify-content: center;
+    text-align: center;
+    background-color: #111010;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+.small{
+    color: #FFFFFF66;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
 }
